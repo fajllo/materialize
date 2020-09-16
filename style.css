@@ -6,10 +6,17 @@ header{
 }
 @media screen and (max-width:650px){
     header{
-        min-height: 500px;
+        min-height: 820px;
     }
 }
 .section{
     padding-top:5vh;
     padding-bottom:5vh ;
+}
+.tabs .indicator{
+    background-color: #d32f2f;
+
+}
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background-color: transparent;
 }
