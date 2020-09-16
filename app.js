@@ -6,3 +6,5 @@ $(".tabs").tabs();
 $(".datepicker").datepicker({
     disableWeekends : true,
 })
+$('.tooltipped').tooltip();
+$('.scrollspy').scrollSpy();

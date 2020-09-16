@@ -15,25 +15,23 @@
 <body>
 
   <header>
-    <nav class="nav-wrapper transparent">
+    <nav class="nav-wrapper transparent pinned">
       <div class="container">
-        <a href="#" class="brand-logo black-text"> 
+        <a href="#" class="brand-logo black-text tooltipped" data-tooltip ="I like Tesla! I just simle landing page, nothing else. "> 
           T
-          
-          
         </a>
         <a href="#" class="sidenav-trigger" data-target = "mobile-nav">
           <i class="material-icons black-text">menu</i>
         </a>
         <ul class="right hide-on-med-and-down black-text">
-          <li><a href="#"class ="black-text">Photos</a></li>
-          <li><a href="#"class ="black-text">About</a></li>
-          <li><a href="#"class ="black-text">Contact</a></li>
+          <li><a href="#photos"class ="black-text">Photos</a></li>
+          <li><a href="#about"class ="black-text">About</a></li>
+          <li><a href="#contact"class ="black-text">Contact</a></li>
         </ul>
         <ul class="sidenav grey lighten-4 " id = "mobile-nav">
-          <li><a href="">Photos</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#photos">Photos</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
 
@@ -43,7 +41,7 @@
   </header>
 
 
-  <section class="container section" id="photos">
+  <section class="container section scrollspy" id="photos">
     <div class="row">
       <div class="col s12 l6">
         <img src="img/1.jpg" alt="" class="responsive-img materialboxed">
@@ -86,7 +84,7 @@
   </div>
   <section class="container section" id="services">
     <div class="row">
-      <div class="col s12 l4">
+      <div class="col s12 l4 scrollspy" id="about">
         <h2> Somethin something</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus vel nulla neque eos, sed eum quaerat cupiditate laudantium voluptatem asperiores culpa. Incidunt atque iure soluta recusandae nobis ipsum delectus quos!</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus vel nulla neque eos, sed eum quaerat cupiditate laudantium voluptatem asperiores culpa. Incidunt atque iure soluta recusandae nobis ipsum delectus quos!</p>
@@ -116,7 +114,7 @@
     </div>
     
   </section>
-  <section class="section container" id="contact">
+  <section class="section container scrollspy" id="contact">
     <div class="row">
       <div class="col s12 l5">
         <h2 class="red-text text-darken-1">Get in touch</h2>
@@ -124,7 +122,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo repudiandae cum totam ex recusandae, commodi quae vel sed nobis obcaecati inventore fugiat provident optio architecto nulla dolorum beatae vitae at?</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos hic iste aut cupiditate sit accusamus libero vel quas eaque? Fuga eligendi nostrum consequuntur possimus magni maiores delectus tempora alias hic?</p>
       </div>
-      <div class="col s12 l5 offset-l2">
+      <div class="col s12 l5 offset-l2 contact scrollspy">
       <form action="">
         <div class="input-field ">
           <i class="material-icons prefix ">email</i>
